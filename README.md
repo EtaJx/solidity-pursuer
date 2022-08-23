@@ -5,3 +5,4 @@
   1. [🌰投票合约例子(voting contract sample)](./voting-sample.sol)
   2. 竞拍（auction)
      1. [简单的公开竞拍（a simple open auction)](./simple-open-auction.sol)
+     2. [私密竞拍/盲拍(Blind Auction Contract)](./blind-auction.sol)
