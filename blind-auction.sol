@@ -31,9 +31,10 @@ contract BlindAuction {
     // 修改器是一个很方便的验证函数输入的方法
     // `onlyBefore`被用于`bid`函数：
     // 新的函数体是由`modifier`的函数体，并且`_`替换原函数体语句来组成
+    // 多个修改器可以按顺序排列，并按顺序执行
     modifier onlyBefore(uint time) {
-        if (block.timestamp >= time) revert TooLate(time);
-        _;
+        if (block.timestamp >= time) revert TooLate(time); // 如果条件成立，执行`revert`
+        _; // 这里的 `_` 占位符表示原来的函数体，如果上述条件不成立，则执行原函数体
     }
     modifier onlyAfter(uint time) {
         if (block.timestamp <= time) revert TooEarly(time);
