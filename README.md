@@ -6,3 +6,4 @@
   2. 竞拍（auction)
      1. [简单的公开竞拍（a simple open auction)](./simple-open-auction.sol)
      2. [私密竞拍/盲拍(Blind Auction Contract)](./blind-auction.sol)
+  3. [安全远程购买合约(Safe Remote Purchase Contract)](./safe-remote-purchase.sol)
