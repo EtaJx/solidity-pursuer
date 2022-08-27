@@ -7,3 +7,6 @@
      1. [简单的公开竞拍（a simple open auction)](./simple-open-auction.sol)
      2. [私密竞拍/盲拍(Blind Auction Contract)](./blind-auction.sol)
   3. [安全远程购买合约(Safe Remote Purchase Contract)](./safe-remote-purchase.sol)
+  4. 微支付通道合约(Micropayment Channel)
+     1. [Recevier Pays Contract](./Micropayment/receiver-pays.sol)
+     2. [支付通道(Payment Channel)](./Micropayment/simple-payment-channel.sol)
