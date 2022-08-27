@@ -10,3 +10,4 @@
   4. 微支付通道合约(Micropayment Channel)
      1. [Recevier Pays Contract](./Micropayment/receiver-pays.sol)
      2. [支付通道(Payment Channel)](./Micropayment/simple-payment-channel.sol)
+  5. [库合约使用(模块化)(modular contracts)](./modular-contracts-sample.sol)
