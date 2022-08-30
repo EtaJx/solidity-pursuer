@@ -14,8 +14,10 @@
   5. [库合约使用(模块化)(modular contracts)](SolidityByExample/modular-contracts-sample.sol)
 
 #### Additions
-- [区块链基础浅谈](Additions/BlockchainBasics.md)
+- [区块链基础浅谈(a simple blockchain basic knowledge)](Additions/BlockchainBasics.md)
 - [什么是zero-account / 什么是address(0) — what is zero-account / what is address(0)](Additions/WhatIsZeroAccount.md)
 
 #### Description
 - [Solidity Source File](./SolidityDescription/SoliditySourceFile.md)
+- Struct of Contract
+  - [Variables(associated with `data location`)](SolidityDescription/ContractStruct/StateVariables.md)
