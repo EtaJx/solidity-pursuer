@@ -21,3 +21,4 @@
 - [Solidity Source File](./SolidityDescription/SoliditySourceFile.md)
 - Struct of Contract
   - [Variables(associated with `data location`)](SolidityDescription/ContractStruct/StateVariables.md)
+  - [Functions](SolidityDescription/ContractStruct/Functions.md)
